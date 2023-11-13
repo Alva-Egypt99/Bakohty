@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #1d2023;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    height: max-content;
+    margin: auto;
+    color: #fff;
+    margin-top: 50px;
+}
+.container h2{
+    color: rgb(117, 206, 206);
+    text-shadow: 1px 3px #cf1682;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+.container h3{
+    text-shadow: 1px 2px #85cde2;
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container h4{
+    text-align: center;
+}
+.container .images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;;
+    margin: auto;
+}
+.container .images div{
+    width: 200px;
+    height: 200px;
+    background-color: #292c31;
+    border-radius: 10px;
+    border: 3px solid #36383d;
+}
+.images div img{
+    width: 100%;
+} 
+.prompt{
+    background-color: #292c31;
+    padding: 5px;
+    border: 3px solid #36383d;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+input,button{
+    color: #fff;
+    border: none;
+}
+input{
+    background-color: #292c31;
+    outline: none;
+    width: 75%;
+    font-weight: 600;
+}
+button{
+    background-color: #36383d;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5px;
+    padding: 5px;
+}
+button:hover{
+    background-color: #45464a;
+}
